@@ -1,8 +1,8 @@
-#  ПР-4.1: Проект Место
+#  Portfolio site for @SamoilovaRender
 
-Учебный проект факультета Веб-разработки Яндекс Практикума - фото блог. Сайт адаптирован для корректного отображения на самых распространённых разрешениях экранов.
+Still is in progress
 
-[Сайт на GitHub pages](https://beardy-raccoon.github.io/mesto/index.html)
+[View on GitHub pages](https://beardy-raccoon.github.io/SamoilovaRender/index.html)
 
 ### Технологии
 * HTML5
