@@ -1,0 +1,19 @@
+.intro__form-open-button {
+  width: 167px;
+  height: 51px;
+  margin-top: 95px;
+  border-radius: 26px;
+  background: #393939;
+  border: 5px solid rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF;
+  transition: transform .9s;
+}
+
+.intro__form-open-button:hover {
+  transition: transform .3s;
+  transform: scale(1.1);
+}

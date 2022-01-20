@@ -1,0 +1,8 @@
+.intro__title-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 877px;
+  margin-left: 130px;
+
+}

@@ -1,0 +1,15 @@
+.intro__media {
+  height: 85vh;
+  background-image: url(../../../images/abstraction-intro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 1441px) {
+  .intro__media {
+    max-height: 880px;
+  }
+
+}

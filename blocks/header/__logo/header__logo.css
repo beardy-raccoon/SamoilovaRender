@@ -1,0 +1,8 @@
+.header__logo {
+  background-image: url(../../../images/sr-logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 27px;
+  min-width: 149px;
+  margin-left: 132px;
+}

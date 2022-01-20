@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Glysa';
+  src: url(./Glysa.otf);
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  src: url(./Montserrat-Regular.ttf);
+}

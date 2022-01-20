@@ -1,0 +1,15 @@
+.header__link {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 85px;
+  text-decoration: none;
+  color: #000;
+  transition: all .9s;
+}
+
+.header__link:hover {
+  transition: all .3s;
+  transform: scale(1.1);
+  opacity: .6;
+}
