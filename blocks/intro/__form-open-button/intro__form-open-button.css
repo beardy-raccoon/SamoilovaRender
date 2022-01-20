@@ -1,6 +1,6 @@
 .intro__form-open-button {
-  width: 167px;
-  height: 51px;
+  max-width: 167px;
+  min-height: 51px;
   margin-top: 95px;
   border-radius: 26px;
   background: #393939;

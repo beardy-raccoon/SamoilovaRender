@@ -11,5 +11,8 @@
   .intro__media {
     max-height: 880px;
   }
+}
 
+.intro__media_clone {
+  background-image: url(../../../images/abstraction-intro-2.png);
 }
