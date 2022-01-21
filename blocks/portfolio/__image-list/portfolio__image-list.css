@@ -1,0 +1,10 @@
+.portfolio__image-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 18px;
+  margin: 314px 0 133px;
+  padding: 0;
+  list-style: none;
+  overflow: scroll;
+  /*align-content: center;*/
+}

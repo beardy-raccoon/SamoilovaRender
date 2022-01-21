@@ -1,0 +1,12 @@
+.portfolio__project-more {
+  background-image: url(../../../images/projects-more.svg);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #343434;
+  border-radius: 10px;
+  min-width: 486px;
+  min-height: 410px;
+  display: flex;
+  align-items: flex-end;
+}

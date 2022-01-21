@@ -1,0 +1,6 @@
+.portfolio__text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 97px 121px 174px 130px;
+}
