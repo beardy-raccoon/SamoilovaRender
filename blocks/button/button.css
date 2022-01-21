@@ -1,7 +1,4 @@
-.intro__form-open-button {
-  max-width: 167px;
-  min-height: 51px;
-  margin-top: 95px;
+.button {
   border-radius: 26px;
   background: #393939;
   border: 5px solid rgba(255, 255, 255, 0.25);
@@ -13,7 +10,7 @@
   transition: transform .9s;
 }
 
-.intro__form-open-button:hover {
+.button:hover {
   transition: transform .3s;
   transform: scale(1.1);
 }
