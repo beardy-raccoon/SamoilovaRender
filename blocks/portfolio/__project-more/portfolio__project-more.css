@@ -5,8 +5,16 @@
   background-repeat: no-repeat;
   background-color: #343434;
   border-radius: 10px;
+  text-decoration: none;
   min-width: 486px;
   min-height: 410px;
   display: flex;
   align-items: flex-end;
+  transition: all .9s;
+}
+
+.portfolio__project-more:hover {
+  transform: scale(1.05);
+  opacity: .8;
+  transition: all .3s;
 }

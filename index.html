@@ -10,6 +10,7 @@
 
 <body class="root">
   <div class="page">
+    <div id="up" style="visibility: hidden;"></div>
     <header class="header">
       <div class="header__logo"></div>
       <nav class="header__links">
@@ -30,7 +31,7 @@
       </nav>
     </header>
     <main class="content">
-      <section class="intro">
+      <section class="intro ">
         <div class="intro__media">
           <div class="intro__title-wrap">
             <h1 class="intro__title">Always open to new challenges</h1>
@@ -65,7 +66,9 @@
           <div class="potfolio__line"></div>
           <p class="portfolio__text">Here you can see a sample of our latest works. If that doesn't convince you enough,
             check out the full experience under the button.</p>
-            <button type="button" class="button button_place_portfolio">All projects</button>
+            <a href="#up">
+              <button type="button" class="button button_place_portfolio">All projects</button>
+            </a>
         </div>
         <ul class="portfolio__image-list">
           <li class="portfolio__item">
@@ -84,9 +87,9 @@
             <img src="./images/portfolio-fifth.png" class="portfolio__project" alt="">
           </li>
           <li class="portfolio__item">
-            <div class="portfolio__project-more">
+            <a href="#up" class="portfolio__project-more">
               <p class="portfolio__project-caption">More projects</p>
-            </div>
+            </a>
           </li>
         </ul>
       </section>
