@@ -35,3 +35,12 @@
 @import url(../blocks/portfolio/__project/portfolio__project.css);
 @import url(../blocks/portfolio/__project-more/portfolio__project-more.css);
 @import url(../blocks/portfolio/__project-caption/portfolio__project-caption.css);
+@import url(../blocks/coloboration/coloboration.css);
+@import url(../blocks/coloboration/__wrap/coloboration__wrap.css);
+@import url(../blocks/coloboration/__title/coloboration__title.css);
+@import url(../blocks/coloboration/__form-container/colobortion__form-container.css);
+@import url(../blocks/coloboration/__form-title/coloboration__form-title.css);
+@import url(../blocks/coloboration/__form/coloboration__form.css);
+@import url(../blocks/coloboration/__form-input/coloboration__form-input.css);
+@import url(../blocks/button/_place/button_place_coloboration-form.css);
+@import url(../blocks/coloboration/__form-notification/coloboration__form-notification.css);

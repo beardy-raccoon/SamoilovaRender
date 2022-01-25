@@ -1,0 +1,8 @@
+.colobortion__form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 470px;
+  height: 595px;
+  align-self: flex-end;
+}
