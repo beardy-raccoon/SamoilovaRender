@@ -35,7 +35,12 @@
         <div class="intro__media">
           <div class="intro__title-wrap">
             <h1 class="intro__title">Always open to new challenges</h1>
-            <button type="button" class="button button_place_intro">Get in touch</button>
+            <button type="button" aria-label="Open form" class="button button_place_intro">Get in touch</button>
+          </div>
+          <div class="intro__bullet">
+            <button type="button" class="intro__label" id="first-background"></button>
+            <button type="button" class="intro__label" id="second-background"></button>
+            <button type="button" class="intro__label" id="third-background"></button>
           </div>
         </div>
       </section>
@@ -66,9 +71,9 @@
           <div class="potfolio__line"></div>
           <p class="portfolio__text">Here you can see a sample of our latest works. If that doesn't convince you enough,
             check out the full experience under the button.</p>
-            <a href="#up">
-              <button type="button" class="button button_place_portfolio">All projects</button>
-            </a>
+          <a href="#up">
+            <button type="button" aria-label="To projects" class="button button_place_portfolio">All projects</button>
+          </a>
         </div>
         <ul class="portfolio__image-list">
           <li class="portfolio__item">
@@ -94,14 +99,31 @@
         </ul>
       </section>
 
-      <section class="coloboration"></section>
+      <section class="coloboration">
+        <div class="coloboration__title">Let’s create
+          something great togother!</div>
+        <div class="colobortion__form-container">
+          <h3 class="coloboration__form-title">Fill the form below
+            and get expert advice</h3>
+          <form action="#" class="coloboration__form">
+            <input id="name" type="text" class="coloboration__form-input" required placeholder="John">
+            <input id="mail" type="text" class="coloboration__form-input" required placeholder="login@domail.com">
+            <input id="question" type="text" class="coloboration__form-input" required
+              placeholder="Type your  question">
+            <button type="button" aria-label="Send" class="button button_place_coloboration-form">Send request</button>
+          </form>
+          <p class="coloboration__form-notification">I consent to the private data provided in this contact form to be
+            used and retain by diprialstudio.com for the purpose of answering my question.</p>
+        </div>
+      </section>
 
       <section class="intro intro_clone">
         <div class="intro__media intro__media_clone">
           <div class="intro__title-wrap">
             <h1 class="intro__title">3D visualization</h1>
             <a href="#up">
-              <button type="button" class="intro__form-open-button">Shut up and take my money!</button>
+              <button type="button" aria-label="Open form" class="intro__form-open-button">Shut up and take my
+                money!</button>
             </a>
           </div>
         </div>
